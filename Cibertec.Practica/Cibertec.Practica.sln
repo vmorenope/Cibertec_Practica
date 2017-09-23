@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.Models", "Practica.Models\Practica.Models.csproj", "{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{80D98775-8656-4FBD-A5B3-C34344CD333D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.Repositories", "Practica.Repositories\Practica.Repositories.csproj", "{96DF77FD-4FCB-427E-A41D-E25D657DAA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.UnitOfWork", "Practica.UnitOfWork\Practica.UnitOfWork.csproj", "{F2323189-BA92-46F6-B043-02437EA08E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.Repositories.Dapper", "Practica.Repositories.Dapper\Practica.Repositories.Dapper.csproj", "{D02A566B-BCB8-4AA3-BBB5-598A591D9D82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{02C75228-B02E-40A8-BC6C-3AA4F5611B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.Repositories.DapperTests", "Practica.Repositories.DapperTests\Practica.Repositories.DapperTests.csproj", "{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DF77FD-4FCB-427E-A41D-E25D657DAA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DF77FD-4FCB-427E-A41D-E25D657DAA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DF77FD-4FCB-427E-A41D-E25D657DAA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DF77FD-4FCB-427E-A41D-E25D657DAA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2323189-BA92-46F6-B043-02437EA08E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2323189-BA92-46F6-B043-02437EA08E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2323189-BA92-46F6-B043-02437EA08E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2323189-BA92-46F6-B043-02437EA08E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02A566B-BCB8-4AA3-BBB5-598A591D9D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02A566B-BCB8-4AA3-BBB5-598A591D9D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02A566B-BCB8-4AA3-BBB5-598A591D9D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02A566B-BCB8-4AA3-BBB5-598A591D9D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3991138-A0C9-49E7-AE3F-C8CBBD9600A8} = {80D98775-8656-4FBD-A5B3-C34344CD333D}
+		{96DF77FD-4FCB-427E-A41D-E25D657DAA81} = {80D98775-8656-4FBD-A5B3-C34344CD333D}
+		{F2323189-BA92-46F6-B043-02437EA08E75} = {80D98775-8656-4FBD-A5B3-C34344CD333D}
+		{D02A566B-BCB8-4AA3-BBB5-598A591D9D82} = {80D98775-8656-4FBD-A5B3-C34344CD333D}
+		{CDA3221B-DFD4-45D5-B827-C56B5F0D1D40} = {02C75228-B02E-40A8-BC6C-3AA4F5611B64}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7033EB4A-9CF0-431E-98AD-876D3E65ECAB}
+	EndGlobalSection
+EndGlobal
